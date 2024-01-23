@@ -15,9 +15,13 @@
             <div class="row">
                 <div class="col-12">
                     <form action="request.php" method="GET">
+                        <div class="form-floating m-3">
+                            <textarea  class="form-control" name="paragraph" id="textarea"></textarea>
+                            <label for="textarea">Inserisci il paragrafo qui</label>
+                        </div>
                         <div class="m-3">
-                            <textarea  class="form-control" name="paragraph" id="textarea" cols="30" rows="4"></textarea>
-                            <label for="textarea">Inserisci il paragrafo da censurare</label>
+                            <label for="text">Parola da censurare</label>
+                            <input class="form-control" type="text" name="word" id="text">
                         </div>
                     </form>
                 </div>
