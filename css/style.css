@@ -9,6 +9,10 @@ body{
     background-image: linear-gradient(#37c748 1.5px, transparent 1.5px), linear-gradient(to right, #37c748 1.5px, transparent 1.5px);
     background-size: 30px 30px;
 }
+header{
+    background-color: #37c748;
+    padding: 10px;
+}
 .my_card{
     background-color: rgba(221, 221, 221, 0.8);
     padding: 20px;
