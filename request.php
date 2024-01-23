@@ -14,13 +14,13 @@
         //get value of word
         $word = $_GET['word'];
 
-        $new_p = str_replace($word, '***', $p);
+        $new_p = str_replace($word, '<span class="text-danger">***</span>', $p);
     ?>
     <header>
         <h1>Correct Text</h1>
     </header>
     <main>
-        <div class="container">
+        <div class="container py-5">
             <div class="row justify-content-center row-gap-3">
                 <div class="col-12 col-md-8 col-lg-6">
                     <div class="my_card">
