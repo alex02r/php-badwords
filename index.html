@@ -12,22 +12,26 @@
         <h1>Remove Bad Words</h1>
     </header>
     <main>
-        <div class="conainer">
-            <div class="row">
-                <div class="col-12">
-                    <form action="request.php" method="GET">
-                        <div class="form-floating m-3">
-                            <textarea  class="form-control" name="paragraph" id="textarea"></textarea>
-                            <label for="textarea">Inserisci il paragrafo qui</label>
-                        </div>
-                        <div class="m-3">
-                            <label for="text">Parola da censurare</label>
-                            <input class="form-control" type="text" name="word" id="text">
-                        </div>
-                        <div class="m-3">
-                            <button class="btn btn-success">Codifica</button>
-                        </div>
-                    </form>
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="my_card">
+                        <form action="request.php" method="GET">
+                            <div class="form-floating">
+                                <textarea  class="form-control" name="paragraph" id="textarea"></textarea>
+                                <label for="textarea">Inserisci il paragrafo qui</label>
+                            </div>
+                            <div class="row">
+                                <div class="col-8">
+                                    <label for="text">Parola da censurare</label>
+                                    <input class="form-control" type="text" name="word" id="text">
+                                </div>
+                                <div class="col-4 align-self-end">
+                                    <button class="btn btn-success">Codifica</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

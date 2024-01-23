@@ -5,3 +5,8 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+.my_card{
+    background-color: rgba(221, 221, 221, 0.6);
+    padding: 20px;
+    border-radius: 10px;
+}
