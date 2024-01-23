@@ -15,6 +15,9 @@
         $word = $_GET['word'];
 
         $new_p = str_replace($word, '<span class="text-danger">***</span>', $p);
+
+        //how many words are censured
+        $num = count(explode($word, $p)) - 1 ;
     ?>
     <header>
         <h1>Correct Text</h1>
@@ -32,6 +35,7 @@
                     <div class="my_card">
                         <h3>Paragrafo censurato</h3>
                         <p> <?php echo $new_p; ?> </p>
+                        <h6> <?php echo "Parole censurate: ".$num ;?> </h6>
                     </div>
                 </div>
             </div>
