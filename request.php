@@ -21,14 +21,18 @@
     </header>
     <main>
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h3>Paragrafo iniziale</h3>
-                    <p> <?php echo $p; ?> </p>
+            <div class="row justify-content-center row-gap-3">
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="my_card">
+                        <h3>Paragrafo iniziale</h3>
+                        <p> <?php echo $p; ?> </p>
+                    </div>
                 </div>
-                <div class="col-12">
-                    <h3>Paragrafo censurato</h3>
-                    <p> <?php echo $new_p; ?> </p>
+                <div class="col-12 col-md-8 col-lg-6">
+                    <div class="my_card">
+                        <h3>Paragrafo censurato</h3>
+                        <p> <?php echo $new_p; ?> </p>
+                    </div>
                 </div>
             </div>
         </div>
