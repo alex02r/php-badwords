@@ -6,6 +6,12 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <?php 
+        // get value of paragraph 
+        $p = $_GET['paragraph'];
+        //get value of word
+        $word = $_GET['word'];
+
+    ?>
 </body>
 </html>
