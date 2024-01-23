@@ -5,8 +5,12 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+body{
+    background-image: linear-gradient(#37c748 1.5px, transparent 1.5px), linear-gradient(to right, #37c748 1.5px, transparent 1.5px);
+    background-size: 30px 30px;
+}
 .my_card{
-    background-color: rgba(221, 221, 221, 0.6);
+    background-color: rgba(221, 221, 221, 0.8);
     padding: 20px;
     border-radius: 10px;
 }
