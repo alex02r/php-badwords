@@ -14,11 +14,18 @@
         //get value of word
         $word = $_GET['word'];
 
-        $new_p = str_replace($word, '***', $p);
+        //get all words
+        $array_words = explode(',', $word);
+        $new_p = $p ;
+        // remove single word in paragraph 
+        for ($i=0; $i < count($array_words); $i++) { 
+            
+            $new_p = str_replace($array_words[$i], '***', $new_p);
+        }
 
         //how many words are censured
-        $num_p = strlen($p) - 1 ;
-        $num_new_p = strlen($new_p) - 1;
+        $num_p = strlen($p);
+        $num_new_p = strlen($new_p);
     ?>
     <header>
         <h1>Correct Text</h1>
