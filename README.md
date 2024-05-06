@@ -1,10 +1,13 @@
-Ciao ragazzi,
-Esercizio di oggi: PHP Badwords
-nome repo: php-badwords
-Descrizione:
-Creare un form PHP che permetta di inviare due campi: un paragrafo ed una parola da censurare.
-Gestire il tutto con due file diversi.
-Il primo file dovrà permettere all’utente di inserire i dati e inviare la richiesta al server.
-Il secondo file riceverà la richiesta ed eseguirà queste operazioni:
-- stampare a schermo il paragrafo e la sua lunghezza
-- stampare di nuovo il paragrafo e la sua lunghezza, dopo aver sostituito con tre asterischi (***) tutte le occorrenze della parola da censurare
+# PHP Badwords
+
+Questo repository contiene il codice per un'applicazione PHP che consente agli utenti di censurare una parola specifica all'interno di un paragrafo. L'applicazione è composta da due file distinti che gestiscono le seguenti operazioni:
+
+- Il primo file permette agli utenti di inserire un paragrafo e una parola da censurare attraverso un form PHP e di inviare la richiesta al server.
+- Il secondo file riceve la richiesta dal server e esegue le seguenti operazioni:
+  - Stampa a schermo il paragrafo inserito dall'utente e la sua lunghezza.
+  - Stampa nuovamente il paragrafo e la sua lunghezza dopo aver sostituito tutte le occorrenze della parola da censurare con tre asterischi (***).
+
+## Tecnologie Utilizzate
+- HTML
+- CSS
+- PHP
